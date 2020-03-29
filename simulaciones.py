@@ -4,14 +4,14 @@ import time
 from datetime import datetime
 
 # Rutas
-SIMULATIONS         = ["E5", "E6", "E7", "E8", "E9", "E10", "L5", "L6", "L7", "L8", "L9", "L10"]
-PATH_COOJA          = "/home/user/contiki-ng/tools/cooja"
-PATH_SIMULATION 	= "ant run_nogui -Dargs=/home/user/contiki-ng/Simulaciones/cooja/TSCH_{}.csc" # Comando para ejecutar simulacion
+SIMULATIONS		= ["E5", "E6", "E7", "E8", "E9", "E10", "L5", "L6", "L7", "L8", "L9", "L10"]
+PATH_COOJA          	= "/home/user/contiki-ng/tools/cooja"
+PATH_SIMULATION		= "ant run_nogui -Dargs=/home/user/contiki-ng/Simulaciones/cooja/TSCH_{}.csc" # Comando para ejecutar simulacion
 PATH_TESTLOG 		= "/home/user/contiki-ng/tools/cooja/build/COOJA.testlog"
 PATH_OUT_TESTLOG	= "/home/user/contiki-ng/Simulaciones/cooja/log_motes/{}_slot{}_int{}_testlog"
-PATH_LOG            = "/home/user/contiki-ng/tools/cooja/build/COOJA.log"
+PATH_LOG		= "/home/user/contiki-ng/tools/cooja/build/COOJA.log"
 PATH_OUT_LOG		= "/home/user/contiki-ng/Simulaciones/cooja/log_cooja/{}_slot{}_int{}_log"
-PATH_PROJECT 		= "/home/user/contiki-ng/Simulaciones"
+PATH_PROJECT		= "/home/user/contiki-ng/Simulaciones"
 
 # Variables
 N_unicast_slot_max = 3
